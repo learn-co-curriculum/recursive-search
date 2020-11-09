@@ -1,5 +1,7 @@
 # Day 2: Recursive Search
 
+**Fork and then clone me!**
+
 Given an Array of values, use recursion to find the target value. Return `true` if found, otherwise `false`.
 
 ```
@@ -37,8 +39,6 @@ function iterativeSearch(arr, target) {
 There are many ways to solve this problem. We suggest starting with the bases cases. What are they?
 
 Feeling stuck? Have a hint! Do you need to pass the whole array with every recursive call or just part of it?
-
-**Fork and then clone me!**
 
 Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
 
