@@ -1,4 +1,4 @@
-# Recursive Search
+# Day 2: Recursive Search
 
 Given an Array of values, use recursion to find the target value. Return `true` if found, otherwise `false`.
 
