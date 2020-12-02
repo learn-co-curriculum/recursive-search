@@ -38,7 +38,7 @@ module.exports = recursiveSearch;
 * return false if array is empty
 * return true if first element of array == target
 
-* recursive_search(input array - first element, target)
+* return recursive_search(input array - first element, target)
 ******************************************************************************************/
 
 // And a written explanation of your solution
