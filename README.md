@@ -1,10 +1,15 @@
 # Day 2: Recursive Search
 
-**Fork and then clone me!**
+## Learning Goals
 
-Given an Array of values, use recursion to find the target value. Return `true` if found, otherwise `false`.
+- Solve algorithm problems using recursion
 
-```
+## Instructions
+
+Given an Array of values, use recursion to find the target value. Return `true`
+if found, otherwise `false`.
+
+```txt
 Input: [1, 2, 3], 2
 Output: true
 
@@ -12,7 +17,9 @@ Input: [3, 2, 1], 4
 Output: false
 ```
 
-Sometimes it can help to solve the problem iteratively first, and then convert that to the recursive version. Here are two possible iterative solutions: one in Ruby and one in JS.
+Sometimes it can help to solve the problem iteratively first, and then convert
+that to the recursive version. Here are two possible iterative solutions: one in
+Ruby and one in JS.
 
 ```ruby
 def iterative_search(arr, target)
@@ -36,13 +43,16 @@ function iterativeSearch(arr, target) {
 }
 ```
 
-There are many ways to solve this problem. We suggest starting with the bases cases. What are they?
+There are many ways to solve this problem. We suggest starting with the **base
+cases**. What are they?
 
-Feeling stuck? Have a hint! Do you need to pass the whole array with every recursive call or just part of it?
+Feeling stuck? Have a hint! Do you need to pass the _whole_ array with every
+recursive call, or just _part_ of it?
 
-Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
+Use the language of your choosing. We've included starter files for some
+languages where you can pseudocode, explain your solution and code.
 
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
