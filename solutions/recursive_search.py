@@ -1,11 +1,9 @@
 def recursive_search(list, target):
 
     if len(list) == 0:
-
         return False
     
     if list[0] == target:
-
         return True
 
     return recursive_search(list[1:], target) 
